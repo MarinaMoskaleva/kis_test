@@ -1,0 +1,6 @@
+.info__compatibility-ios{
+    width: 19px;
+    height: 10px;
+    background-image: url('../../../images/IOS.png');
+    background-size: cover;
+}

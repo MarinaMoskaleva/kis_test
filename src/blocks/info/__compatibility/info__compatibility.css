@@ -1,0 +1,6 @@
+.info__compatibility{
+    display: flex;
+    flex-direction: column;
+    margin: 0 34px 43px;
+    justify-content: space-between;
+}

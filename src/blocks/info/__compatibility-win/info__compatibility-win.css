@@ -1,0 +1,14 @@
+.info__compatibility-win{
+    width: 16px;
+    height: 16px;
+    background-image: url('../../../images/windows.png');
+    background-size: cover;
+}
+/* .info__compatibility-win::after {
+    content: "";
+    display: block;
+    height: 24px;
+    padding-right: 36px;
+    border: 1px solid rgba(102, 102, 102, 0.4);
+    align-self: center;
+} */

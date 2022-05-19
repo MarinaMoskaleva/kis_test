@@ -1,0 +1,6 @@
+.info__compatibility-mac{
+    width: 42px;
+    height: 10px;
+    background-image: url('../../../images/macOS.png');
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+.info__list-item{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.info__list-item:first-child{
+    padding-top: 24px;
+}
+
+.info__list-item:last-child{
+    padding-bottom: 27px;
+}

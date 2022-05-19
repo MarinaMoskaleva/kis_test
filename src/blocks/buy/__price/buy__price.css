@@ -1,0 +1,5 @@
+.buy__price{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+}

@@ -1,0 +1,9 @@
+.info__compatibility-os{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 24px;
+    min-width: 224px;
+    padding: 0 7px;
+}

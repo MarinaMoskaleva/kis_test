@@ -1,0 +1,9 @@
+.buy__save{
+    width: 179px;
+    height: 36px;
+    background: #8233FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
