@@ -1,0 +1,7 @@
+.buy__price-header-logo{
+    min-width: 50px;
+    height: 56px;
+    background-image: url('../../../images/price-logo.png');
+    background-size: cover;
+    margin: 30px 23px 28px 16px;
+}

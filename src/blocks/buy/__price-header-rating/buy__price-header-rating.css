@@ -1,6 +1,6 @@
-.buy__price-header{
+.buy__price-header-rating{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-top: 10px;
     align-items: center;
 }

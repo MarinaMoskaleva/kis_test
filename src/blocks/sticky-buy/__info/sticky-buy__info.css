@@ -1,5 +1,5 @@
-.info{
-    margin: 50px 24px 0;
+.sticky-buy__info{
     display: flex;
     flex-direction: column;
+    margin: 12px;
 }

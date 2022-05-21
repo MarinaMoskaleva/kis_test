@@ -1,0 +1,5 @@
+.buy__price-header-title{
+    display: flex;
+    flex-direction: column;
+    margin: 21px 16px 23.5px 0;
+}

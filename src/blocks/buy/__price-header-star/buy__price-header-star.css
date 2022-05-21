@@ -1,0 +1,11 @@
+.buy__price-header-star{
+    width: 15px;
+    height: 14.3px;
+    background-image: url('../../../images/Star.png');
+    margin-right: 5px;
+}
+
+.buy__price-header-star:last-of-type{
+    margin-right: 0;
+    background-image: url('../../../images/Star-last.png');
+}

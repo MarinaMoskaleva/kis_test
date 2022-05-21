@@ -1,6 +1,7 @@
-.buy__price-header{
+.buy__price-cost{
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }

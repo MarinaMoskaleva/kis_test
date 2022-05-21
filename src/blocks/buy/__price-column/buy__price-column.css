@@ -1,0 +1,13 @@
+.buy__price-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.buy__price-column::after{
+    content: "";
+    display: block;
+    padding: 0 16px;
+    opacity: 0.2;
+    border-bottom: 2px solid #FFFFFF;
+    margin: 0 16px 6px;
+}

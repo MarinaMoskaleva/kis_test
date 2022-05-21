@@ -1,0 +1,4 @@
+.header__line_fixed{
+    position: fixed;
+    background-color: rgba(29, 29, 27, 0.8); 
+}
