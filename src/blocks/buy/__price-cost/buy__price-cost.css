@@ -5,3 +5,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 1024px){
+    .buy__price-cost{
+        min-height: 100%;
+    }
+}

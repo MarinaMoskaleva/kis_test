@@ -7,4 +7,12 @@
     line-height: 24px;
     color: #1D1D1B;
     display: inline;
+    padding-right: 16px;
 }
+
+@media screen and (min-width: 1024px){
+    .buy__price-header-text{
+        padding-right: 0;
+    }
+}
+

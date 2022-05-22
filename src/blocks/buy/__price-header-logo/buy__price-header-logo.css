@@ -5,3 +5,16 @@
     background-size: cover;
     margin: 30px 23px 28px 16px;
 }
+
+@media screen and (min-width: 1024px){
+    .buy__price-header-logo {
+        background-image: url('../../../images/logo-desc.svg');
+        margin: 0 16px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .buy__price-header-logo {
+        margin: 0 32px;
+    }
+}

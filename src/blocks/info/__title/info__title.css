@@ -17,3 +17,11 @@
     opacity: 0.8;
     border-bottom: 2px solid #FFFFFF;
 }
+
+@media screen and (min-width: 1024px){
+    .info__title {
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -0.01em;
+    }
+}

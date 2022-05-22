@@ -1,6 +1,26 @@
 .info__compatibility{
     display: flex;
     flex-direction: column;
-    margin: 0 34px 43px;
+    margin: 27px 34px 43px;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 768px){
+    .info__compatibility {
+        flex-direction: row;
+        max-width: 400px;
+        margin: 30px 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .info__compatibility {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .info__compatibility {
+        margin-left: 29px;
+    }
 }

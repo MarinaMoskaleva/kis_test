@@ -9,6 +9,14 @@
     line-height: 20px;
     color: #FFFFFF;
     width: 296px;
+    max-width: 95%;
     height: 48px;
     border: none;
+}
+
+@media screen and (min-width: 1024px){
+    .buy__button {
+        width: 118px;
+        margin: 0 32px 0 24px;
+    }
 }

@@ -9,3 +9,17 @@
     color: #FFFFFF;
     margin-bottom: 13px;
 }
+
+@media screen and (min-width: 768px){
+    .info__compatibility-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .info__compatibility-title {
+        margin-bottom: 0;
+    }
+}
+

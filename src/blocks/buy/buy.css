@@ -1,5 +1,15 @@
 .buy{
     display: flex;
     flex-direction: column;
-    margin: 0 16px 34px;
+    margin: 0 auto 34px;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+@media screen and (min-width: 1024px){
+    .buy {
+        margin: -28px auto 0;
+        align-items: flex-end;
+    }
 }

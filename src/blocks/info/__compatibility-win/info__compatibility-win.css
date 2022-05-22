@@ -3,12 +3,13 @@
     height: 16px;
     background-image: url('../../../images/windows.png');
     background-size: cover;
+    display: block;
 }
 /* .info__compatibility-win::after {
     content: "";
     display: block;
-    height: 24px;
-    padding-right: 36px;
-    border: 1px solid rgba(102, 102, 102, 0.4);
+    height: 100%;
+    margin: 0 20px;
+    border-right: 1px solid rgba(102, 102, 102, 0.4);
     align-self: center;
 } */

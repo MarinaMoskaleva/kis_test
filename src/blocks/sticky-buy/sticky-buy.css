@@ -5,10 +5,11 @@
     background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
     min-width: 320px;
     width: 89%;
-    max-width: 600px;
+    max-width: 500px;
     height: 67px;
     justify-content: space-between;
     box-sizing: border-box;
     position: fixed;
     bottom: 2px;
+    align-self: center;
 }

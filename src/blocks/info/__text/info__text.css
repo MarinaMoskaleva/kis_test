@@ -7,3 +7,11 @@
     line-height: 27px;
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 1024px){
+    .info__text {
+        font-size: 32px;
+        line-height: 36px;
+        opacity: 0.8;
+    }
+}

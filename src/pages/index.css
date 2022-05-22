@@ -1,12 +1,15 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/museo-sans.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__pic/header__pic.css);
+@import url(../blocks/info/__pic/info__pic.css);
 @import url(../blocks/header/__line/header__line.css);
 @import url(../blocks/header/__line/_fixed/header__line_fixed.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-cmb/header__lang-cmb.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/first-section/first-section.css);
+@import url(../blocks/info-background/info-background.css);
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__text/info__text.css);
@@ -26,6 +29,7 @@
 @import url(../blocks/buy/__save/buy__save.css);
 @import url(../blocks/buy/__save-text/buy__save-text.css);
 @import url(../blocks/buy/__price/buy__price.css);
+@import url(../blocks/buy/__price-form/buy__price-form.css);
 @import url(../blocks/buy/__price-header/buy__price-header.css);
 @import url(../blocks/buy/__price-header-logo/buy__price-header-logo.css);
 @import url(../blocks/buy/__price-header-title/buy__price-header-title.css);

@@ -1,5 +1,11 @@
 .buy__price-header-title{
     display: flex;
     flex-direction: column;
-    margin: 21px 16px 23.5px 0;
+    margin: 22px 0;
+}
+
+@media screen and (min-width: 1024px){
+    .buy__price-header-title {
+        margin: 0;
+    }
 }

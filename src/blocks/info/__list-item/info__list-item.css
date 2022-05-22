@@ -12,5 +12,11 @@
 }
 
 .info__list-item:last-child{
-    padding-bottom: 27px;
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .info__list-item {
+        font-size: 24px;
+    }
 }

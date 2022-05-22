@@ -1,0 +1,35 @@
+.info__pic{
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 372px;
+  background-size: cover;
+  background-image: url('../../../images/background-mob.png');
+  align-self: flex-end;
+}
+@media screen and (min-width: 526px){
+  .info__pic {
+    width: 62%;
+    background-image: url('../../../images/background.png');
+  }
+}
+
+@media screen and (min-width: 768px){
+  .info__pic {
+    min-height: 548px;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .info__pic {
+    min-height: 548px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .info__pic {
+    min-height: 768px;
+  }
+}
+

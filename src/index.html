@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaspersky</title>
+    <title>KIS test</title>
   </head>
   <body>
     <div class="root">
       <header class="header">
-        <div class="header__pic"></div>
         <div class="header__line">
           <a href="#" class="header__logo"></a>
           <select id="lang" class="header__lang-cmb">
@@ -18,85 +17,93 @@
         </div>
       </header>
       <main class="content">
-        <section class="info">
-          <h1 class="info__title">
-            Don’t let malware defeat you
-          </h1>
-          <p class="info__text">
-            Protect your devices with anti-malware made for gamers.
-          </p>
-          <ui class="info__list">
-            <li class="info__list-item">
-              <span class="info__list-item-main">Gaming mode:</span> Ensures optimal PC performance while you play
-            </li>
-            <li class="info__list-item">
-              <span class="info__list-item-main">100% detection rate:</span> Never misses a threat
-            </li>
-            <li class="info__list-item">
-              <span class="info__list-item-main">Cutting-edge cybersecurity:</span> Runs on AI overseen by world-leading threat analysts
-            </li>
-          </ui>
-          <div class="info__compatibility">
-            <h2 class="info__compatibility-title">Compatible with:</h2>
-            <div class="info__compatibility-os">
-              <div class="info__compatibility-win"></div>
-              <div class="info__compatibility-line"></div>
-              <div class="info__compatibility-mac"></div>
-              <div class="info__compatibility-line"></div>
-              <div class="info__compatibility-andr"></div>
-              <div class="info__compatibility-line"></div>
-              <div class="info__compatibility-ios"></div>
+        <section class="first-section">
+          <div class="info-background">
+            <div class="info__pic"></div>
+          </div>
+          <div class="info">
+            <h1 class="info__title">
+              Don’t let malware defeat you
+            </h1>
+            <p class="info__text">
+              Protect your devices with anti-malware made for gamers.
+            </p>
+            <ui class="info__list">
+              <li class="info__list-item">
+                <span class="info__list-item-main">Gaming mode:</span> Ensures optimal PC performance while you play
+              </li>
+              <li class="info__list-item">
+                <span class="info__list-item-main">100% detection rate:</span> Never misses a threat
+              </li>
+              <li class="info__list-item">
+                <span class="info__list-item-main">Cutting-edge cybersecurity:</span> Runs on AI overseen by world-leading threat analysts
+              </li>
+            </ui>
+            <div class="info__compatibility">
+              <h2 class="info__compatibility-title">Compatible with:</h2>
+              <div class="info__compatibility-os">
+                <div class="info__compatibility-win"></div>
+                <div class="info__compatibility-line"></div>
+                <div class="info__compatibility-mac"></div>
+                <div class="info__compatibility-line"></div>
+                <div class="info__compatibility-andr"></div>
+                <div class="info__compatibility-line"></div>
+                <div class="info__compatibility-ios"></div>
+              </div>
             </div>
           </div>
-        </section>
-        <section class="buy">
-          <div class="buy__save">
-            <p class="buy__save-text">Save 20%</p>
-          </div>
-          <form class="buy__price">
-            <div class="buy__price-column">
-              <div class="buy__price-header">
-                <div class="buy__price-header-logo"></div>
-                <div class="buy__price-header-title">
-                  <p class="buy__price-header-text">
-                    Kaspersky Internet Security
-                  </p>
-                  <div class="buy__price-header-rating">
-                    <div class="buy__price-header-star"></div>
-                    <div class="buy__price-header-star"></div>
-                    <div class="buy__price-header-star"></div>
-                    <div class="buy__price-header-star"></div>
-                    <div class="buy__price-header-star"></div>
-                    <p class="buy__price-header-review">(1503 reviews)</p>
+          <div class="buy">
+            <div class="buy__save">
+              <p class="buy__save-text">Save 20%</p>
+            </div>
+            <div class="buy__price">
+              <form class="buy__price-form">
+                <div class="buy__price-column">
+                  <div class="buy__price-header">
+                    <div class="buy__price-header-logo"></div>
+                    <div class="buy__price-header-title">
+                      <p class="buy__price-header-text">
+                        Kaspersky Internet Security
+                      </p>
+                      <div class="buy__price-header-rating">
+                        <div class="buy__price-header-star"></div>
+                        <div class="buy__price-header-star"></div>
+                        <div class="buy__price-header-star"></div>
+                        <div class="buy__price-header-star"></div>
+                        <div class="buy__price-header-star"></div>
+                        <p class="buy__price-header-review">(1503 reviews)</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div class="buy__price-column">
+                  <div class="buy__price-cost">
+                    <p class="buy__price-cost-old">£34.99</p>
+                    <p class="buy__price-cost-new">£35.99</p>
+                  </div>
+                </div>
+                <select id="price" class="buy__price-cmb">
+                  <option class="buy__price-cmb-option" value="3-1">1 Device, 1 Year £27.99</option>
+                  <option class="buy__price-cmb-option" value="3-1">1 Device, 2 Years £43.99</option>
+                  <option class="buy__price-cmb-option" value="3-1">3 Devices, 1 Year £35.99</option>
+                  <option class="buy__price-cmb-option" value="3-1">3 Devices, 2 Years £63.99</option>
+                  <option class="buy__price-cmb-option" value="3-1">5 Devices, 1 Year £43.99</option>
+                  <option class="buy__price-cmb-option" value="3-1">5 Devices, 2 Years £71.99</option>
+                </select>
+                <button class="buy__button" type="submit">Buy Now</button>
+              </form>
             </div>
-            <div class="buy__price-column">
-              <div class="buy__price-cost">
-                <p class="buy__price-cost-old">£34.99</p>
-                <p class="buy__price-cost-new">£35.99</p>
-              </div>
+            
+          </div>
+          <form class="sticky-buy">
+            <div class="sticky-buy__info">
+              <h3 class="sticky-buy__info-title">Kaspersky Internet Security</h3>
+              <p class="sticky-buy__info-text">£35.99 - 3 Devices, 1 year</p>
             </div>
-            <select id="price" class="buy__price-cmb">
-              <option class="buy__price-cmb-option" value="3-1">1 Device, 1 Year £27.99</option>
-              <option class="buy__price-cmb-option" value="3-1">1 Device, 2 Years £43.99</option>
-              <option class="buy__price-cmb-option" value="3-1">3 Devices, 1 Year £35.99</option>
-              <option class="buy__price-cmb-option" value="3-1">3 Devices, 2 Years £63.99</option>
-              <option class="buy__price-cmb-option" value="3-1">5 Devices, 1 Year £43.99</option>
-              <option class="buy__price-cmb-option" value="3-1">5 Devices, 2 Years £71.99</option>
-            </select>
-            <button class="buy__button" type="submit">Buy Now</button>
+            <button class="sticky-buy__button" type="submit">Buy Now</button>
           </form>
         </section>
-        <form class="sticky-buy">
-          <div class="sticky-buy__info">
-            <h3 class="sticky-buy__info-title">Kaspersky Internet Security</h3>
-            <p class="sticky-buy__info-text">£35.99 - 3 Devices, 1 year</p>
-          </div>
-          <button class="sticky-buy__button" type="submit">Buy Now</button>
-        </form>
-        <section class="second-section">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, porro? Ratione id repellat illum fugiat, debitis quae impedit aliquam, perferendis deleniti dignissimos beatae ipsa! Odit ab optio nesciunt animi saepe, harum incidunt esse ipsa ad recusandae dolorum tempora atque dolore consequatur laborum qui vero vel nam ex omnis veritatis, provident ratione! Nobis molestiae, placeat voluptatibus incidunt nesciunt, voluptatum facilis impedit ad voluptates velit quasi natus fugiat dolor nam molestias provident in quis mollitia! Cum at sapiente dolorum ad aliquam ipsum ratione, quaerat expedita debitis. Expedita laudantium illo doloremque illum. Perferendis est culpa, amet earum nostrum mollitia architecto tempore? Dolore, vero?</section>
+        <section class="second-section"></section>
       </main>
     </div>
   </body>
